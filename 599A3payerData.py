@@ -10,9 +10,13 @@ pygame.mixer.init()
 
 # Sound file mapping
 sounds = {
-    "block": "C:/Users/hossa/Documents/599A3/block.mp3",
-    "punch": "C:/Users/hossa/Documents/599A3/Punch.mp3"
+    "block": r"C:\Users\hossa\Documents\599A3\CPSC599A3\block.mp3",
+    "punch": r"C:\Users\hossa\Documents\599A3\CPSC599A3\Punch.mp3",
+    "powerUp": r"C:\Users\hossa\Documents\599A3\CPSC599A3\PowerUp.mp3",
+    "superBlock": r"C:\Users\hossa\Documents\599A3\CPSC599A3\SuperBlock.mp3",
+    "combination": r"C:\Users\hossa\Documents\599A3\CPSC599A3\combinationAttack.mp3"
 }
+
 
 # Connect to Arduino
 arduino_port = "COM3"  # Change this to your Arduino's port

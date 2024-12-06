@@ -13,11 +13,11 @@ time.sleep(2)  # Wait for Arduino to initialize
 
 # Sound file mapping
 sounds = {
-    "block": "C:/Users/hossa/Documents/599A3/block.mp3",
-    "punch": "C:/Users/hossa/Documents/599A3/Punch.mp3",
-    "powerUp": "C:/Users\hossa/Documents/599A3/PowerUp.mp3",
-    "superBlock": "C:/Users/hossa/Documents/599A3/SuperBlock.mp3",
-    "combination": "C:/Users/hossa\Documents/599A3/combinationAttack.mp3"
+    "block": r"C:\Users\hossa\Documents\599A3\CPSC599A3\block.mp3",
+    "punch": r"C:\Users\hossa\Documents\599A3\CPSC599A3\Punch.mp3",
+    "powerUp": r"C:\Users\hossa\Documents\599A3\CPSC599A3\PowerUp.mp3",
+    "superBlock": r"C:\Users\hossa\Documents\599A3\CPSC599A3\SuperBlock.mp3",
+    "combination": r"C:\Users\hossa\Documents\599A3\CPSC599A3\combinationAttack.mp3"
 }
 
 print("Connected to Arduino.")
